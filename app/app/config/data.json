@@ -1,0 +1,9 @@
+{
+  "links": [
+        "tasks",
+        "imports",
+        "options",
+        "config",
+        "version"
+      ]
+}

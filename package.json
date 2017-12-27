@@ -1,0 +1,17 @@
+{
+  "name": "bootstrap-4-stylus-gui",
+  "version": "1.0.0",
+  "description": "nodejs gui app for generating a stylus port of bootstrap.css v4.0.0",
+  "main": "app/app/bin/www.js",
+  "scripts": {
+    "start": "node app/app/bin/www.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "chalk": "^2.3.0",
+    "express": "^4.16.2",
+    "node-static": "^0.7.10",
+    "nunjucks": "^3.0.1"
+  }
+}

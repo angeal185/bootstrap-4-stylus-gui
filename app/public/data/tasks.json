@@ -1,0 +1,17 @@
+[{
+	"id":"task01",
+	"name":"bootstrap.css",
+	"description":"Compile unminified version of bootstrap.css"
+},{
+	"id":"task02",
+	"name":"bootstrap.min.css",
+	"description":"Compile minified version of bootstrap.css"
+},{
+	"id":"task03",
+	"name":"bootstrap.css (sourcemaps)",
+	"description":"Compile minified version of bootstrap.css with sourcemaps"
+},{
+	"id":"task04",
+	"name":"bootstrap.min.css (sourcemaps)",
+	"description":"Compile minified version of bootstrap.css with sourcemaps"
+}]

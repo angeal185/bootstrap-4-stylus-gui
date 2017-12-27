@@ -1,0 +1,27 @@
+{% import "macros/macros.njk" as macro %}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>{{config.title}}</title>
+	{{macro.css(s="bootstrap")}}
+	{{macro.css(s="styles")}}
+	<link rel="shortcut icon" type="image/png" href="/favicon.png"/>
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	  <a class="navbar-brand" href="#">{{config.title}}</a>
+	  <div id="navLinks">
+		{% for item in links %}
+		<button id="lnk-{{item|capitalize}}" class="btn btn-outline-success my-2 my-sm-0" type="button">{{item|capitalize}}</button>
+		{% endfor %}
+	  </div>
+	</nav>
+    {% block content %}{% endblock %}
+	<div id="scroll-to-top" class="icon-up-open"></div>
+    {{macro.js(s="way")}}
+	{{macro.js(s="jquery")}}
+	{{macro.js(s="index")}}
+    {%block scripts%}{% endblock %}
+  </body>
+</html>
